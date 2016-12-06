@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "es2015",
+        "es2016",
+        "stage-1",
+        "react"
+    ],
+    "plugins": [
+        [ "typecheck", {
+            "disable": {
+                "production": true
+            }
+        } ],
+        "babel-plugin-transform-flow-strip-types"
+    ]
+}

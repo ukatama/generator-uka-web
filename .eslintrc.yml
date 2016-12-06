@@ -1,0 +1,18 @@
+extends: airbnb
+parser: babel-eslint
+parserOptions:
+    ecmaFeatures:
+        experimentalObjectRestSpread: true
+        jsx: true
+env:
+    browser: true
+globals:
+    AWS: true
+    AWSCognito: true
+rules:
+    indent: [error, 4]
+    react/jsx-indent: [error, 4]
+    react/jsx-indent-props: [error, 4]
+    new-cap:
+        - error
+        - capIsNewExceptions: [Record]

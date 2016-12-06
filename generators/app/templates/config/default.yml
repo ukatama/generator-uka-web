@@ -1,0 +1,4 @@
+server:
+    listen:
+        port: 8000
+        host: localhost
