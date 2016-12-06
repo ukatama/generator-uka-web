@@ -42,6 +42,7 @@
       "mocha": true
     }
   },
+  "private": true,
   "repository": "ukatama/generator-uka-web",
   "scripts": {
     "prepublish": "gulp prepublish",
