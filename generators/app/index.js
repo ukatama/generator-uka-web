@@ -31,7 +31,6 @@ module.exports = yeoman.Base.extend({
     writing() {
         [
             'config/default.yml',
-            'public/index.html',
             'src/browser/components/App.jsx',
             'src/browser/reducers/index.js',
             'src/browser/styles/global.styl',
@@ -39,8 +38,10 @@ module.exports = yeoman.Base.extend({
             'src/browser/render.jsx',
             'src/browser/store.js',
             'src/server/index.js',
+            'src/server/logger.js',
             'src/server/router.js',
             'src/server/server.js',
+            'views/index.pug',
             '.babelrc',
             '.eslintrc.yml',
             '.gitignore',
