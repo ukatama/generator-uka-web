@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'redux';
+import { connect } from 'react-redux';
 
 type PropTypes = {
     reducer: any,
